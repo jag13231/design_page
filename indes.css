@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(7, 7, 53);
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contents{
+    width: 30%;
+    height: 70%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.contents h1{
+    margin-top: 20px;
+    margin-left:25px ;
+}
+.contents p{
+    margin-top: 20px;
+    margin-left:30px;
+    color: lightgray;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.explore{
+    width: 20%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.explore a{
+    text-decoration: none;
+    color: rgb(52, 255, 52);
+    font-size: 15px;
+}
+.categories_main_container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+}
+.categories_container{
+    width: 85%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+    
+}
+
+.category{
+    border: 1px solid white;
+    width: 30%;
+    height: 70%;
+    align-content: center;
+    border-radius: 16px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+.manage{
+    width: 30%;
+    height: 70%;
+    align-content: center;
+    border-radius: 16px;
+    background: white;
+    color: black;
+}
+.manage h3{
+    margin-left: 30px;
+}
+.manage p{
+    margin-left: 30px;
+}
+.categorys{
+    width: 30%;
+    height: 70%;
+    align-items: center;
+    border-radius: 16px;
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.categorys h3{
+    margin-left: 30px;
+}
+.categorys p{
+    margin-left: 30px;
+}
+
+.category h3{
+    margin-left: 30px;
+}
+.category p{
+    margin-left: 30px;
+}
+.categorys button{
+    width: 15%;
+    height: 20%;
+    border-radius: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    background:rgb(50, 146, 184);
+    border: none;
+    margin: 0 2px;
+    cursor: pointer;
+
+}
