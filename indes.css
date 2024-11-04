@@ -119,14 +119,13 @@ body{
     margin-left: 30px;
 }
 .categorys button{
-    width: 15%;
-    height: 20%;
+    width: 56px;
+    height: 56px;
     border-radius: 100%;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 30px;
     background:rgb(50, 146, 184);
     border: none;
-    margin: 0 2px;
+    margin-right: 10px;
     cursor: pointer;
 
 }
